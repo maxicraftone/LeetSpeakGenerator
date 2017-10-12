@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>13375P34K 63N3R4T0R</title>
+	<link rel=stylesheet href="css/index.css" type="text/css">
+	<script type="text/javascript" src="js/leetspeak.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<div id="header">
+		<h1 id="title" >13375P34K 63N3R4T0R</h1><h1 id="name">by <a href='https://the-morpheus.de/forum/member.php?action=profile&uid=245'>maxicraftone</a></h1>
+	</div>
+    <div id="translateForm">
+        <!-- Input Form -->
+        <form id='form' method="post">
+            <input type="text" id="input" placeholder="Type in your input string ...">
+            <select id="mode">
+                <option value="numbers">Numbers only</option>
+                <option value="allchrs">All types of characters</option>
+            </select>
+        </form>
+
+        <!-- Output textarea -->
+        <textarea id="output" onclick="setHeight.call(this)" rows="1" cols="55" wrap="hard" readonly></textarea>
+        
+        <!-- Input Form 2 -->
+        <form id='inputMODEform' method="post">
+            <select id="inputmode">
+               <option value="toleet">Translate to 1337</option>
+               <option value="fromleet">Translate to normal</option>
+            </select>
+        </form>
+        
+        <!-- Submit button -->
+        <a class="submitBTN" onclick="translateToLeet(); return false;">TRANSLATE</a>
+    </div>
+</body>
+</html>

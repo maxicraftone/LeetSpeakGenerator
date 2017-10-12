@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+#header{
+	background-color: orange;
+    color: floralwhite;
+    height: 80px;
+    margin: -8px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    padding-top: 1px;
+    padding-left: 50px;
+    -webkit-box-shadow: 0 3px 10px 2px #999999;
+    box-shadow: 0 3px 10px 2px #999999;
+    -webkit-font-smoothing: antialiased;
+}
+
+#header a, #header h1{
+	margin-top: 18px;
+}
+
+#title{
+	float: left;
+}
+
+#name{
+	float: right;
+	margin-right: 50px;
+}
+
+#name a{
+	color: white;
+	text-decoration: none;
+}
+
+#name a:hover{
+	color: #7A1000;
+}
+
+#translateForm{
+    margin-top: 50px;
+    margin-left: 100px;
+    align-content: center;
+}
+
+#input{
+    color: #b70b26;
+    padding-left: 5px;
+    font-size: 20px;
+    width: 450px;
+    outline: 1px solid #7A1000;
+}
+
+#mode, #inputmode{
+    color: #b70b26;
+    background-color: azure;
+    padding-left: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 230px;
+    outline: 1px solid #7A1000;
+}
+
+#inputmode{
+    margin-top: 6.4px;
+    margin-left: 14px;
+}
+
+a.submitBTN{
+    z-index: 1;
+    float: left;
+    text-decoration: none;
+    color: #b70b26;
+    background-color: white;
+    margin-top: -68px;
+    margin-left: 290px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 34.5px;
+    cursor: pointer;
+    outline: 2px solid #7A1000;
+    -webkit-transition:0.3s all ease;
+    transition:0.5s ease all;
+}
+
+a.submitBTN:hover{
+    color: floralwhite;
+    background-color: orange;
+    outline: 2px solid floralwhite;
+}
+
+a.submitBTN:active{
+    color: white;
+    background-color: #7A1000;
+    outline: 2px solid white;
+}
+
+#output{
+    float: left;
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    width: 450px;
+    resize: none;
+    overflow: auto;
+    max-height: 500px;
+}
