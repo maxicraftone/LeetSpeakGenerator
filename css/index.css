@@ -76,7 +76,7 @@ a.submitBTN{
     color: #b70b26;
     background-color: white;
     margin-top: -68px;
-    margin-left: 290px;
+    margin-right: 400px;
     padding: 12px;
     padding-left: 20px;
     padding-right: 20px;
@@ -100,7 +100,7 @@ a.submitBTN:active{
 }
 
 #output{
-    float: left;
+    float: right;
     margin-top: 5px;
     padding-left: 5px;
     font-size: 20px;
